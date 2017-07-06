@@ -3,7 +3,7 @@ var arr=[];
 var subarr=[];
 var n= prompt("Ingrese un valor n");
 var num = parseInt(n);
-crearMatriz();
+llenar();
 
 function crearMatriz(){
     for (i=0; i<num; i++){
@@ -14,6 +14,7 @@ function crearMatriz(){
          arr[i][num-i-1] = num; //Esta linea resume la función llenar;
     }
     console.log(arr);
+    return arr;
 }
 
 
@@ -21,7 +22,7 @@ function llenar(){
     var arreglo = crearMatriz();
     for (i=0; i<arreglo.length; i++){
         for(j=0; j<n-i-1; j++){
-            arreglo[i][num-i-1] = num;
+            arreglo[i][j] = j+1;
         }
     }
 
