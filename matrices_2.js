@@ -13,7 +13,7 @@ function crearMatriz(){
         }
          arr[i][num-i-1] = num; //Esta linea resume la función llenar;
     }
-    console.log(arr);
+   // console.log(arr);
     return arr;
 }
 
@@ -22,7 +22,7 @@ function llenar(){
     var arreglo = crearMatriz();
     for (i=0; i<arreglo.length; i++){
         for(j=0; j<n-i-1; j++){
-            arreglo[i][j] = j+1;
+            arreglo[i][j] = j+1+i;
         }
     }
 
