@@ -1,0 +1,28 @@
+.negro{
+  background-color: black;
+  color: white;
+}
+h1{
+  text-align: center;
+}
+td{
+  width: 60px;
+  height: 60px;
+}
+
+body{
+  background-image: url("../images/backgroundF.jpg");
+  
+
+}
+
+.contenedor{
+  
+  margin : 0px;
+  margin-left : 150px;
+  margin-right : 150px;
+}
+#tablero{
+  margin-left : 450px;
+  margin-right : 450px;
+}
